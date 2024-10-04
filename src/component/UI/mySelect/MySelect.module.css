@@ -1,0 +1,13 @@
+.mySelect {
+    width: 250px;
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 8px; /* Закругленные углы */
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 1em;
+    color: #333;
+    cursor: pointer;
+}
+
+

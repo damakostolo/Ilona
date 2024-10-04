@@ -1,0 +1,39 @@
+.eventPage{
+
+}
+
+
+.eventFilter{
+    padding: 20px;
+    margin: 0 auto 20px;
+
+    height: 140px;
+    max-width: 350px;
+
+}
+
+.eventFilter p {
+    color: #666;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.eventFilter button{
+    display: flex;
+
+    align-items: center;
+    margin: 5px auto ;
+
+    height: 50px;
+}
+
+.eventList{
+
+    margin: 0 auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(max-content, auto));
+    gap: 20px;
+}
+

@@ -1,0 +1,44 @@
+/* Стилі для картки */
+.eventItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 1px solid #ccc;
+    padding: 16px;
+    width: 250px;
+    height: 180px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.eventItem h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.eventItem p {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.link {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
