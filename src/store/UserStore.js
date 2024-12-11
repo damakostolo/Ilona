@@ -3,33 +3,42 @@ import {makeAutoObservable} from "mobx";
 export default class UserStore {
     constructor() {
         this.users = [
-            {name: 'Dana',
-            email: 'dana@example.com',
-                eventId:1,
-            date:'26-6-2007'},
-            {name: 'Dana',
-                eventId:1,
-                email: 'dana@example.com',
-                date:'26-6-2007'},
-            {name: 'Dana',
-                eventId:1,
-                email: 'dana@example.com',
-                date:'26-6-2007'},
-            {name: 'Dana',
-                eventId:2,
-                email: 'dana@example.com',
-                date:'26-6-2007'},
-            {name: 'Dana',
-                eventId:3,
-                email: 'dana@example.com',
-                date:'26-6-2007'}
+            {
+                name: 'Олександр',
+                email: 'oleksandr@example.com',
+                eventId: 1,
+                date: '15-3-2022'
+            },
+            {
+                name: 'Марія',
+                email: 'maria@example.com',
+                eventId: 1,
+                date: '16-3-2022'
+            },
+            {
+                name: 'Іван',
+                email: 'ivan@example.com',
+                eventId: 2,
+                date: '17-3-2022'
+            },
+            {
+                name: 'Софія',
+                email: 'sofia@example.com',
+                eventId: 3,
+                date: '18-3-2022'
+            },
+            {
+                name: 'Андрій',
+                email: 'andriy@example.com',
+                eventId: 3,
+                date: '19-3-2022'
+            }
         ]
         makeAutoObservable(this)
-
     }
 
 
-    setUser(user) {
+        setUser(user) {
         this.users.push(user)
 
     }
